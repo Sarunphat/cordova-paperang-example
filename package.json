@@ -1,0 +1,30 @@
+{
+    "name": "th.muangthai.atr",
+    "displayName": "CordovaPaperang",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^7.1.4",
+        "cordova-plugin-paperang": "git+https://github.com/Sarunphat/cordova-plugin-paperang.git",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-paperang": {
+                "APP_ID": "1546839514",
+                "APP_KEY": "mm1996dc5232cb4e28",
+                "APP_SECRET": "c01ccafe718846cdbddf49f1fcceb7d1"
+            }
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}
